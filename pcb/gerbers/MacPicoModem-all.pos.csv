@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-07-22T14:20:51 ###
+### Footprint positions - created on 2026-09-24T10:43:19 ###
 ### Printed by KiCad version 10.0.3
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -20,6 +20,8 @@ R2        560R               R_0805_2012Metric                   110.6700  -161.
 R3        560R               R_0805_2012Metric                    89.5000  -159.8925   90.0000  top
 R4        3.9K               R_0805_2012Metric                   136.1600  -102.2400    0.0000  top
 R5        3.9K               R_0805_2012Metric                   136.1500   -97.4400    0.0000  top
+R6        0805W8F5101T5E     R0805                               132.0000   -50.6750    0.0000  top
+R7        0805W8F5101T5E     R0805                               132.0000   -46.7200    0.0000  top
 SW1       K2-1102AQ-J4CW-01  KEY-TH_K2-1102AQ-JXXW-XX            109.9125   -40.9925  180.0000  top
 U1        SP3238EEA-L/TR     SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL    87.0800   -81.6300  180.0000  top
 U2        74HCT245           TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL    89.3500  -141.9700  180.0000  top

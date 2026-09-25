@@ -10,6 +10,160 @@
 		(rev "0.1")
 	)
 	(lib_symbols
+		(symbol "EasyEDA:0805W8F5101T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0805W8F5101T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0805"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C27834.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5.1KΩ (5101) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0805W8F5101T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C27834"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0805W8F5101T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:24LC32A-I_SN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4313,6 +4467,12 @@
 		(uuid "09da16e8-872c-4570-b1f4-dd4f89fa0b02")
 	)
 	(junction
+		(at 184.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aa5fa22-b4c4-44cf-a726-efc9a41ba423")
+	)
+	(junction
 		(at 161.29 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4337,12 +4497,6 @@
 		(uuid "2420daf0-ffcf-4c62-8d09-4352ee16d2fd")
 	)
 	(junction
-		(at 40.64 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2532170e-97bd-45c5-9bde-f329842f49b7")
-	)
-	(junction
 		(at 129.54 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4353,12 +4507,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a075866-62be-4f63-ad2b-39be8c7871b3")
-	)
-	(junction
-		(at 21.59 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e632844-43dd-4a96-a30d-f3a71bc31dca")
 	)
 	(junction
 		(at 139.7 123.19)
@@ -4391,6 +4539,12 @@
 		(uuid "511d73e8-dd4b-48f6-b54d-a0ea06421053")
 	)
 	(junction
+		(at 30.48 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "555f3d22-7ac8-4595-bd7b-c8ed88758514")
+	)
+	(junction
 		(at 199.39 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4419,6 +4573,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89e0b1d7-a620-4b6c-928c-bfa14115a3f7")
+	)
+	(junction
+		(at 35.56 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9382db89-8b3f-4a80-be0e-b7e9cfa40d42")
 	)
 	(junction
 		(at 210.82 133.35)
@@ -4493,6 +4653,12 @@
 		(uuid "e761e5e3-a338-4a9c-83c3-a82571cd6775")
 	)
 	(junction
+		(at 186.69 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd7a2ed-a0c9-4d8e-a0f4-696ecfe66581")
+	)
+	(junction
 		(at 91.44 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4531,6 +4697,10 @@
 		(uuid "6e2a2b6f-9404-4ed7-a328-fd039f49a441")
 	)
 	(no_connect
+		(at 38.1 124.46)
+		(uuid "6e5499fc-c146-4675-b778-c1f1642921f3")
+	)
+	(no_connect
 		(at 203.2 130.81)
 		(uuid "7be74ed4-17dc-4568-8b3c-a0f29fd6cda2")
 	)
@@ -4553,6 +4723,10 @@
 	(no_connect
 		(at 182.88 156.21)
 		(uuid "a23c4d89-8898-49ba-b5cb-ec2fbb61b4f4")
+	)
+	(no_connect
+		(at 33.02 124.46)
+		(uuid "aa43909e-1b64-4f34-8747-4eafcda1d5ae")
 	)
 	(no_connect
 		(at 167.64 148.59)
@@ -4619,6 +4793,16 @@
 			(type default)
 		)
 		(uuid "04bef2fc-a3ba-4173-9d01-059d72bc6a84")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06128648-299c-4310-9e61-aa566e373916")
 	)
 	(wire
 		(pts
@@ -4729,16 +4913,6 @@
 			(type default)
 		)
 		(uuid "19c93e0d-c74e-4489-a7f4-bd5e3da6ab7d")
-	)
-	(wire
-		(pts
-			(xy 57.15 114.3) (xy 40.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a004839-6292-433a-a321-986f2ee0188a")
 	)
 	(wire
 		(pts
@@ -4892,6 +5066,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 114.3) (xy 35.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8aa552-e082-4880-ac09-d6830d8b302b")
+	)
+	(wire
+		(pts
 			(xy 115.57 106.68) (xy 110.49 106.68)
 		)
 		(stroke
@@ -4912,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 184.15 97.79)
+			(xy 184.15 73.66) (xy 184.15 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4952,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 74.93) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b959bb7-6374-442d-b2c0-c309a8cdbfb2")
+	)
+	(wire
+		(pts
 			(xy 110.49 143.51) (xy 110.49 137.16)
 		)
 		(stroke
@@ -4982,6 +5176,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 73.66) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426d4518-dbd1-4f79-9b48-c974d1f0328e")
+	)
+	(wire
+		(pts
 			(xy 115.57 101.6) (xy 115.57 106.68)
 		)
 		(stroke
@@ -4989,6 +5193,16 @@
 			(type default)
 		)
 		(uuid "427734b5-3c20-4fe0-a60d-152f6814c9c2")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 35.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46984b54-65d5-4994-8273-34ffd9775311")
 	)
 	(wire
 		(pts
@@ -5002,6 +5216,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 73.66) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a58e5eb-73e3-445e-b723-f5f594b6f65e")
+	)
+	(wire
+		(pts
 			(xy 161.29 133.35) (xy 167.64 133.35)
 		)
 		(stroke
@@ -5009,6 +5233,16 @@
 			(type default)
 		)
 		(uuid "4d9614d8-974e-4e64-82b4-d65a1adb82db")
+	)
+	(wire
+		(pts
+			(xy 40.64 116.84) (xy 59.69 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507238b6-8922-49ff-9e01-3d5079b040e6")
 	)
 	(wire
 		(pts
@@ -5152,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 21.59 114.3)
+			(xy 21.59 114.3) (xy 30.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5162,13 +5396,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 116.84) (xy 38.1 116.84)
+			(xy 63.5 58.42) (xy 63.5 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b63fa02-63cd-4cb8-a0ad-b3faaf9ff7e1")
+		(uuid "6842def4-e3b6-41e4-9d09-c31a220f1de9")
+	)
+	(wire
+		(pts
+			(xy 40.64 116.84) (xy 40.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68997fc5-2242-4373-96f1-dc664bbd53d9")
 	)
 	(wire
 		(pts
@@ -5242,26 +5486,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 124.46) (xy 21.59 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79871a97-6af1-44f2-9025-6d703eeaa211")
-	)
-	(wire
-		(pts
-			(xy 63.5 60.96) (xy 78.74 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d84d6e4-70f7-4888-9c3a-961ccc4cf2b7")
-	)
-	(wire
-		(pts
 			(xy 242.57 143.51) (xy 242.57 146.05)
 		)
 		(stroke
@@ -5332,6 +5556,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1bf005-c076-4368-878a-dd956e102e38")
+	)
+	(wire
+		(pts
 			(xy 48.26 50.8) (xy 78.74 50.8)
 		)
 		(stroke
@@ -5352,6 +5586,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 114.3) (xy 30.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d134763-e394-403b-a598-1e41246136ae")
+	)
+	(wire
+		(pts
 			(xy 139.7 123.19) (xy 167.64 123.19)
 		)
 		(stroke
@@ -5359,6 +5603,26 @@
 			(type default)
 		)
 		(uuid "8d5e4081-43ff-4dec-a79b-133d29a1b8e6")
+	)
+	(wire
+		(pts
+			(xy 181.61 73.66) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fd5a6-b32f-4fad-87a4-fbb4434a9bfa")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e691d81-e2d4-48a1-b2f0-b8ad1eb2209e")
 	)
 	(wire
 		(pts
@@ -5382,7 +5646,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 186.69 97.79)
+			(xy 189.23 78.74) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93740bd7-11ab-4ccd-8c52-c5b8368ff82c")
+	)
+	(wire
+		(pts
+			(xy 186.69 73.66) (xy 186.69 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5716,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 124.46) (xy 21.59 135.89)
+			(xy 21.59 114.3) (xy 21.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5469,16 +5743,6 @@
 			(type default)
 		)
 		(uuid "9bc52964-f955-4166-89ea-2fa69e7eaa3d")
-	)
-	(wire
-		(pts
-			(xy 63.5 68.58) (xy 63.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c729a51-7613-41c3-8958-6bb203cf5298")
 	)
 	(wire
 		(pts
@@ -5539,6 +5803,16 @@
 			(type default)
 		)
 		(uuid "a13e1392-142f-4d5b-9970-702b11e6a799")
+	)
+	(wire
+		(pts
+			(xy 35.56 114.3) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2837cf7-e290-4314-83a5-240dc886f3de")
 	)
 	(wire
 		(pts
@@ -5762,6 +6036,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 74.93) (xy 209.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f59b0f-20d1-4da5-becd-ac077b938883")
+	)
+	(wire
+		(pts
 			(xy 76.835 68.58) (xy 78.74 68.58)
 		)
 		(stroke
@@ -5779,6 +6063,16 @@
 			(type default)
 		)
 		(uuid "b95bfa1c-519d-4465-9bff-16c859687296")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9687985-4cf4-4e3b-b67b-201a986a1feb")
 	)
 	(wire
 		(pts
@@ -5882,16 +6176,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 114.3) (xy 21.59 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb1ae943-f71c-46dc-b921-3626e16661c6")
-	)
-	(wire
-		(pts
 			(xy 59.69 114.3) (xy 59.69 116.84)
 		)
 		(stroke
@@ -5962,16 +6246,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 40.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5038f6d-2145-4fe4-9e00-4a231947a06b")
-	)
-	(wire
-		(pts
 			(xy 139.7 48.26) (xy 104.14 48.26)
 		)
 		(stroke
@@ -6039,16 +6313,6 @@
 			(type default)
 		)
 		(uuid "e4679440-9a00-4e7b-804a-fcb0fc565bb9")
-	)
-	(wire
-		(pts
-			(xy 38.1 116.84) (xy 38.1 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d8ffe0-980b-4f48-a49d-8eee1d35e562")
 	)
 	(wire
 		(pts
@@ -8768,6 +9032,121 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:0805W8F5101T5E")
+		(at 176.53 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b4b926-75d3-4f33-8ee5-62811051909f")
+		(property "Reference" "R6"
+			(at 179.07 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0805W8F5101T5E"
+			(at 179.07 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C27834.html"
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F5101T5E"
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C27834"
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3001af7a-5d16-4c48-a7b2-bda9aed4f2cb")
+		)
+		(pin "2"
+			(uuid "65c61ecb-ed59-4beb-bd61-6929fe8e97f2")
+		)
+		(instances
+			(project "MacPicoModem"
+				(path "/17000deb-a027-4653-b05d-2fd51527d509"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pico_Wifi_modem:+5V")
 		(at 82.55 82.55 0)
 		(unit 1)
@@ -9482,6 +9861,121 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:0805W8F5101T5E")
+		(at 191.77 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9545ffd9-bb7e-4217-b6f4-c9fa793f12cd")
+		(property "Reference" "R7"
+			(at 194.31 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0805W8F5101T5E"
+			(at 194.31 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0805"
+			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C27834.html"
+			(at 181.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 191.77 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 179.07 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F5101T5E"
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C27834"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6c566c5-4728-4cae-a7d8-dc9370880baa")
+		)
+		(pin "2"
+			(uuid "80d52ed6-7e98-4373-be2e-0441a493c274")
+		)
+		(instances
+			(project "MacPicoModem"
+				(path "/17000deb-a027-4653-b05d-2fd51527d509"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:TYPE-C16PIN2MD")
 		(at 185.42 67.31 270)
 		(mirror x)
@@ -9712,6 +10206,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 191.77 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af37f1de-e0ca-4fc4-9317-e00db6c3706d")
+		(property "Reference" "#PWR023"
+			(at 191.77 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "928063e8-b931-4df0-8b49-c7a859a9f075")
+		)
+		(instances
+			(project "MacPicoModem"
+				(path "/17000deb-a027-4653-b05d-2fd51527d509"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c540e7-fc15-41bc-b33f-318af3aaeca2")
+		(property "Reference" "#PWR020"
+			(at 176.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52db68e1-9a1f-486f-b7e1-5548f4e5f9a4")
+		)
+		(instances
+			(project "MacPicoModem"
+				(path "/17000deb-a027-4653-b05d-2fd51527d509"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 21.59 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -9783,6 +10433,84 @@
 			(project "MacPicoModem"
 				(path "/17000deb-a027-4653-b05d-2fd51527d509"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcaed578-dec5-4af1-a501-0aca5969a795")
+		(property "Reference" "#PWR017"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f0c1403-d171-43d1-85df-cd263d083d71")
+		)
+		(instances
+			(project "MacPicoModem"
+				(path "/17000deb-a027-4653-b05d-2fd51527d509"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

@@ -80,10 +80,6 @@
           ""
         ],
         [
-          "clearance|116290000|66820000|8ddc9dd4-b993-44d9-8b74-f1ae742201a4|a10f21e4-e50f-4002-b915-e5cc0211c9a9",
-          ""
-        ],
-        [
           "clearance|122295000|42970000|36eec3b1-5679-441e-b233-5b8b33bc5dd4|533a1669-d45f-4991-a1da-26acc3031b31",
           ""
         ],
@@ -740,7 +736,7 @@
         "uuid": "17000deb-a027-4653-b05d-2fd51527d509"
       }
     ],
-    "used_designators": "SW2,C7,#PWR1,#PWR4-5,#PWR12-13,U1,U4-5,LED1,USB1",
+    "used_designators": "R6-7,#PWR17,#PWR20,#PWR23",
     "variants": []
   },
   "sheets": [
