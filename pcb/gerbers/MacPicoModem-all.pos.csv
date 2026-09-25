@@ -1,0 +1,30 @@
+### Footprint positions - created on 2026-09-24T10:43:19 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                Package                                 PosX       PosY       Rot  Side
+C1        100nF              C_0805_2012Metric                    93.0900   -75.2600  180.0000  top
+C2        100nF              C_0805_2012Metric                    97.3200   -80.1100    0.0000  top
+C3        100nF              C_0805_2012Metric                    78.6900   -80.5800    0.0000  top
+C4        100nF              C_0805_2012Metric                    78.6100   -75.4100  180.0000  top
+C5        100nF              C_0805_2012Metric                    95.0200  -144.8500    0.0000  top
+C6        100nF              C_0805_2012Metric                    95.9100   -84.6100   90.0000  top
+C7        100nF              C_0805_2012Metric                   132.2000  -102.2500  180.0000  top
+D1        FC-2012UGK-520D5   LED0805-R-RD                        128.3250  -159.7850   90.0000  top
+D2        FC-2012UGK-520D5   LED0805-R-RD                        106.9700  -161.8000   90.0000  top
+D3        FC-2012UGK-520D5   LED0805-R-RD                         85.7500  -160.0100   90.0000  top
+J1        DIN-802            CONN-TH_DIN-802                      92.2100   -42.6100  180.0000  top
+J2        TYPE-C_16PIN_2MD   USB-C-SMD_TYPE-C-16PIN-2MD-073      125.2200   -41.1400  180.0000  top
+R1        560R               R_0805_2012Metric                   132.0000  -159.7925   90.0000  top
+R2        560R               R_0805_2012Metric                   110.6700  -161.6225   90.0000  top
+R3        560R               R_0805_2012Metric                    89.5000  -159.8925   90.0000  top
+R4        3.9K               R_0805_2012Metric                   136.1600  -102.2400    0.0000  top
+R5        3.9K               R_0805_2012Metric                   136.1500   -97.4400    0.0000  top
+R6        0805W8F5101T5E     R0805                               132.0000   -50.6750    0.0000  top
+R7        0805W8F5101T5E     R0805                               132.0000   -46.7200    0.0000  top
+SW1       K2-1102AQ-J4CW-01  KEY-TH_K2-1102AQ-JXXW-XX            109.9125   -40.9925  180.0000  top
+U1        SP3238EEA-L/TR     SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL    87.0800   -81.6300  180.0000  top
+U2        74HCT245           TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL    89.3500  -141.9700  180.0000  top
+U3        Pico               RaspberryPi_Pico_W_SMD              117.2900   -91.3700    0.0000  top
+U4        24LC32A-I/SN       SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL     135.0300  -107.8800    0.0000  top
+## End

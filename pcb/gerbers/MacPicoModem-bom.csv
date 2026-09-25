@@ -1,0 +1,13 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2, C3, C4, C5, C6, C7";"C_0805_2012Metric";7;"100nF";;;
+2;"D1, D2, D3";"LED0805-R-RD";3;"FC-2012UGK-520D5";;;
+3;"J1";"CONN-TH_DIN-802";1;"DIN-802";;;
+4;"J2";"USB-C-SMD_TYPE-C-16PIN-2MD-073";1;"TYPE-C 16PIN 2MD";;;
+5;"R1, R2, R3";"R_0805_2012Metric";3;"560R";;;
+6;"R4, R5";"R_0805_2012Metric";2;"3.9K";;;
+7;"R6, R7";"R0805";2;"0805W8F5101T5E";;;
+8;"SW1";"KEY-TH_K2-1102AQ-JXXW-XX";1;"K2-1102AQ-J4CW-01";;;
+9;"U1";"SSOP-28_L10.2-W5.3-P0.65-LS7.8-BL";1;"SP3238EEA-L/TR";;;
+10;"U2";"TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL";1;"74HCT245";;;
+11;"U3";"RaspberryPi_Pico_W_SMD";1;"Pico";;;
+12;"U4";"SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL";1;"24LC32A-I/SN";;;
