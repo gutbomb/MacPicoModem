@@ -3,3 +3,5 @@ pcb/fab/*
 src/build/*
 wifi_mnodem.uf2
 .DS_Store
+/.vscode
+*.FCBak
